@@ -29,6 +29,6 @@ int main(){
         createthread(i,mx);
     }
     //below is just a timer to make sure main() does not end before the threads finish
-    std::this_thread::sleep_for(chrono::seconds(2));
+    this_thread::sleep_for(chrono::seconds(2));
     return 0;
 }

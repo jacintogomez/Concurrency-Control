@@ -24,5 +24,6 @@ int main(){
     for(int i=0;i<5;i++){
         createthread(i);
     }
+    this_thread::sleep_for(chrono::seconds(2));
     return 0;
 }
